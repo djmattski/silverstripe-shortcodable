@@ -7,7 +7,7 @@ use Silverstripe\Shortcodable;
 if (!defined('SHORTCODABLE_DIR')) {
     define('SHORTCODABLE_DIR', rtrim(basename(dirname(__FILE__))));
 }
-if (SHORTCODABLE_DIR != 'shortcodable') {
+if (SHORTCODABLE_DIR != 'silverstripe-shortcodable') {
     throw new \Exception('The edit shortcodable module is not installed in correct directory. The directory should be named "shortcodable"');
 }
 
